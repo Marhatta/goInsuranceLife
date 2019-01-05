@@ -1,0 +1,133 @@
+.sidebar{
+    
+    width:250px;
+    height:100%;
+    background-color:black;
+    float:left;
+    color:white;
+}
+
+.content{
+    width:auto;
+    height:100%;
+   
+    
+    
+}
+
+
+
+
+
+#nav{
+    margin-top:70px;
+}
+
+#nav li{
+    list-style:none;
+    
+    
+}
+
+#nav li a{
+    margin-top:10px;
+    color:white;
+    display:block;
+    padding:12px;
+    font-size:1em;
+    text-decoration: none;
+   
+    
+}
+
+.sidebar #nav a:hover
+{
+    
+   padding-left:30px;
+}
+
+
+#user_profile_picture{
+    border-radius:50%;
+    width:60px;
+    height:60px;
+    margin-top:15px;
+    margin-left:-30px;
+}
+
+
+.active{
+    background-color:#e65c00;
+    color:white;
+}
+
+
+.panel-title{
+    align:center;
+    margin-top:50px;
+    background-color:#e65c00;
+    color:white;
+}
+
+.header{
+    text-decoration:none;
+}
+
+.header li{
+    list-style:none;
+}
+
+.dashboard{
+    height:75px;
+    
+    margin-top:40px;
+    background:#333333;
+    color:white;
+}
+
+#name,#polno,#tenure,#poldate,#poltype,#sumassured,#bondreceived,#firstpremium,#balremwithlic,#chartContainer
+,#nextpremiumdate,#bondgiventoparty,#incentivesearned,#incentivescollected,#nextincentivepremiumamt
+,#nextincentivepremiumdate{
+    width:400px;
+    height:50px;
+    margin-left:150px;
+    color:black;
+    
+}
+
+
+#notetitle,#notesubject,#notedate{
+    width:400px;
+    height:50px;
+}
+
+#notemessage{
+    width:400px;
+    height:120px;
+}
+
+
+#notes{
+    margin-top:50px;
+    width:450px;
+    height:500px;
+}
+
+.thumbnail{
+    
+    margin:20px;
+    width:180px;
+    height:130px;
+}
+
+#policy1,#policy2,#policy3,#policy4,#policy5,#policy6,#slider1
+,#slider2,#slider3,#slider4,#slider5,#social1,
+#social2,#social3,#social4{
+    width:180px;
+    height:130px;
+}
+
+.well :hover{
+    background:salmon;
+    
+}

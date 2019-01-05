@@ -1,0 +1,164 @@
+
+ 
+
+ 
+ 
+
+
+ #button1:hover, #button2:hover, #button3:hover, #button4:hover
+ , #button5:hover, #button6:hover,#button7:hover,#button8:hover,#button9:hover{
+          animation-name:animate_button;
+     animation-duration:.3s;
+     animation-timing-function:ease-in-out;
+    animation-fill-mode:forwards;
+    
+    
+     
+ }
+ 
+  @keyframes animate_button{
+     
+     from { width:200px;background:green;color:whitesmoke;
+         
+     }
+     
+     to { width:300px;background:#000066; color:#ffff00;}
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .sidenav {
+    height: 100%; /* 100% Full-height */
+    width:0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.dropdown ul li a{
+    font-size:16px;
+}
+
+
+.myumbrella:hover,.mybook:hover,.mymoney:hover,.myruppee:hover,.myshield:hover,.myuser:hover{
+  
+    transition: 1s;
+    transform: rotateY(360deg);
+}
+
+
+.carousal-text{
+   
+    font-size:45px;
+     position:fixed;
+     color:white;
+     top:180px;
+     font-weight:200;
+     left:180px;
+    
+    
+    
+}
+
+.carousal-text1{
+   
+    font-size:30px;
+     position:fixed;
+     color:white;
+     top:270px;
+     font-weight:300;
+     left:250px;
+    
+    
+    
+}
+
+
+.carousal-text2{
+   
+    font-size:40px;
+     position:fixed;
+     color:whitesmoke;
+     top:250px;
+     font-weight:300;
+     left:120px;
+    
+    
+    
+}
+
+
+
+    
+    
+    
+
+#carousal-img1,#carousal-img2,#carousal-img3,#carousal-img4,#carousal-img5{
+    width:100%;
+    height:480px;
+}
+
+
+
+
+.social{
+    position:fixed;
+    list-style:none;
+    text-decoration: none;
+    font-size:40px;
+    margin-top:300px;
+    margin-left:1210px;
+    z-index:1;
+   
+    
+}
+
+
+ 
